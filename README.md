@@ -17,10 +17,11 @@ brew install --cask parallex
 ```
 
 Tapped Parallex before from `github.com/mandipadk/parallex`? Point the tap
-here once, and `brew update` carries on as before:
+here once (Parallex stays installed), and `brew update` carries on as before:
 
 ```sh
 brew tap --custom-remote mandipadk/parallex https://github.com/mandipadk/homebrew-parallex
+git -C "$(brew --repository mandipadk/parallex)" reset --hard origin/main
 ```
 
 Parallex updates itself after that (signed updates, checked against the key
