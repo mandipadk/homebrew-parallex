@@ -6,8 +6,8 @@
 # `make cask` updates the version and checksum after a release, and
 # `make tap` copies this file to the tap.
 cask "parallex" do
-  version "2.0.1"
-  sha256 "13120cec85482236e4dc07011d17a53785792d125281b840504617487ffcf973"
+  version "2.1.0"
+  sha256 "1f4249bd1d326940894ccb5ed3084a0f48c32eba15a7f7cf21e2aa1a1f08c185"
 
   url "https://parallex.mandip.dev/download/#{version}/Parallex-#{version}.zip"
   name "Parallex"
